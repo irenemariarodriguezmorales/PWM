@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<html>
+	<head>
+		<title>Log In</title>
+		<link rel=stylesheet href="css/Logging_style.css">
+	</head>
+
+	<header>
+		<a href="MainPage.html"><img src="images/logo.png"></a>
+	</header>
+
+	<main>
+		<img src="images/registrar_animal.png" width="411" height="175">
+		<br><br>
+		<img src="images/dogandcat.png" width="120" height="120">
+		<br><br>
+		Fotos del animal<br>
+		<br>
+		<form action="">
+			<input type="file" accept=".png, .jpeg, .jpg" multiple name="animal_images">
+			<br><br>
+			<input type="text" name="animalname" placeholder="Nombre">
+			<select name="race">
+				<option value="dog">Perro</option>
+				<option value="cat">Gato</option>
+			</select>
+			<br><br>
+			<textarea class="wide_text" name="animal_description" placeholder="Descripcion del animal" cols="100" rows="30"></textarea>
+			<br>
+			<input type="submit" name="" value="Registrar">
+		</form>
+	</main>
+
+	<footer>
+	</footer>
+</html>
