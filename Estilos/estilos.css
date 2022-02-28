@@ -1,0 +1,275 @@
+.cabecera {
+    padding: 5%;
+    text-align: center;
+    background: #5ECB69;
+    color: white;
+    font-size: 30px;
+}
+.cuerpo {
+    background: #2D2E33;
+}
+.nave {
+    list-style-type: none;
+    margin: -74px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.elem {
+    float: right;
+}
+
+.cadaElem {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nave2 {
+    list-style-type: none;
+    margin-top: 6%;
+    margin-bottom: -6%;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+.colab {
+    margin-top: 6%;
+    margin-bottom: -5%;
+    width: 90%;
+}
+
+.ong {
+    float: right;
+    margin-top: 1.5%;
+}
+
+.sobre {
+    float: left;
+    margin-top: 6%;
+    margin-left: -4%;
+}
+
+.logo {
+    float: left;
+    margin-top: -5%;
+    margin-left: -17%;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 8%;
+    margin-left: 7%;
+}
+
+.perros {
+    float: left;
+    margin-top: -20%;
+    margin-left: 16%;
+    font-size: 30px;
+}
+
+.gatos {
+    float: left;
+    margin-top: -20%;
+    margin-left: 47%;
+    font-size: 30px;
+}
+
+.perrosygatos {
+    float: left;
+    margin-top: -20%;
+    margin-left: 68%;
+    font-size: 30px;
+}
+
+.descripcion {
+    font-size: 30px;
+    color: white;
+    margin-top: 3%;
+}
+
+.animales {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 6%;
+    margin-left: 7%;
+    grid-gap: 12%;
+}
+
+.dalma {
+    font-size: 20px;
+    color: white;
+    margin-top: -23%;
+    margin-left: -70%;
+}
+
+.coco {
+    font-size: 20px;
+    color: white;
+    margin-top: -3%;
+    margin-left: -6%;
+}
+
+.luna {
+    font-size: 20px;
+    color: white;
+    margin-top: -3%;
+    margin-left: 66%;
+}
+
+.cleo {
+    font-size: 20px;
+    color: white;
+    margin-top: 11%;
+    margin-left: -71%;
+}
+
+.rocky {
+    font-size: 20px;
+    color: white;
+    margin-top: -3%;
+    margin-left: -7%;
+}
+
+.tobby {
+    font-size: 20px;
+    color: white;
+    margin-top: -3%;
+    margin-left: 66%;
+}
+
+.bonnie {
+    font-size: 20px;
+    color: white;
+    margin-top: 11%;
+    margin-left: -72%;
+}
+
+.zoe {
+    font-size: 20px;
+    color: white;
+    margin-top: -3%;
+    margin-left: -7%;
+}
+
+.niebla {
+    font-size: 20px;
+    color: white;
+    margin-top: -3%;
+    margin-left: 66%;
+}
+
+.parrafo {
+    font-size: 24px;
+    color: white;
+    margin-top: 3%;
+}
+
+.auditorio {
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.gala {
+    margin-left: 34%;
+    margin-top: -2%;
+}
+
+.adopcion {
+    margin-left: 33%;
+    margin-top: 2%;
+}
+
+.titulo {
+    color: #5ECB69;
+    font-size: 64px;
+    margin-left: 39%;
+}
+
+.logo2 {
+    float: left;
+    margin-top: 1%;
+    margin-left: -4%;
+}
+
+.col {
+    margin-bottom: -99%;
+    margin-top: 6%;
+}
+
+.fondo {
+    margin-bottom: -46%;
+    margin-top: -24%;
+    opacity: 51%;
+    width: 100%;
+}
+
+.fondo2 {
+    width: 100%;
+}
+
+.ong2 {
+    float: right;
+    margin-top: 6.5%;
+}
+
+.logo3 {
+    float: left;
+    margin-top: 1%;
+    margin-left: -12%;
+}
+
+.fondoPantalla {
+    background: #2D2E33
+}
+
+.rectangulo {
+    width: 242px;
+    height: 729px;
+    background: #5ECB69;
+}
+
+.logo4 {
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.animal {
+    margin-top: 85%;
+}
+
+.raza {
+    margin-top: 27%;
+    margin-left: 39%;
+}
+
+.localizacion {
+    margin-top: 29%;
+    margin-left: 39%;
+}
+
+.a {
+    margin-top: -92%;
+    margin-left: 50%;
+}
+
+.r {
+    margin-top: 28%;
+    margin-left: 48%;
+}
+
+.s {
+    margin-top: 30%;
+    margin-left: 36%;
+}
+
+.adopta {
+    margin-top: -30%;
+    margin-left: 42%;
+    font-size: 495%;
+    opacity: 0;
+}
