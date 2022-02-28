@@ -3,14 +3,14 @@
     text-align: center;
     background: #5ECB69;
     color: white;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .cuerpo {
     background: #2D2E33;
 }
 .nave {
     list-style-type: none;
-    margin: -2em;
+    margin: -2rem;
     padding: 0;
     overflow: hidden;
 }
@@ -23,7 +23,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: .875rem 1rem;
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .section_text{
-    font-size: 30px;
+    font-size: 1.875rem;
     color: white;
 }
 
@@ -69,23 +69,23 @@
 }
 
 .textbox{
-    border: 1px solid white;
-    font-size: 20px;
-    padding: 10px;
+    border: 0.0625rem solid white;
+    font-size: 1.25rem;
+    padding: .625rem;
     color: white;
 }
 
 .topicname{
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: white;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .Forum_add_topic{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.25rem;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 
@@ -95,14 +95,14 @@
 }
 
 .Notificated_animal_structure{
-    padding-top: 70px;
+    padding-top: 4.375rem;
     color: white;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .previous_next li{
     display: inline-table;
-    margin-right: 50px;
+    margin-right: 3.125rem;
 
 }
 
@@ -113,14 +113,21 @@
 .notification_photo{
     color: white;
     display: inline-block;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 
 .notification_photo figcaption{
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .gallery{
     text-align: center;
+    padding-top: 1rem;
+}
+
+.News li{
+    font-size: 1.5rem;
+    list-style-type: none;
+    margin-bottom: 1rem;
 }
