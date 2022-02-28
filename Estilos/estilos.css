@@ -273,3 +273,40 @@
     font-size: 495%;
     opacity: 0;
 }
+
+.elec {
+    font-size: 24px;
+    color: white;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.eleccion {
+    margin-left: 20%;
+}
+
+.elec1 {
+    font-size: 24px;
+    color: white;
+    margin-left: 50%;
+    margin-top: -21%;
+}
+
+.usuarios {
+    margin-left: 49%;
+}
+
+.nombre {
+    margin-top: -26%;
+    margin-left: 12%;
+}
+
+.nombre2 {
+    margin-top: -13%;
+    margin-left: 12%;
+}
+
+.nombre3 {
+    margin-top: 1%;
+    margin-left: 12%;
+}
