@@ -1,0 +1,134 @@
+.cabecera {
+    padding: 5%;
+    text-align: center;
+    background: #5ECB69;
+    color: white;
+    font-size: 2rem;
+}
+.cuerpo {
+    background: #2D2E33;
+}
+.nave {
+    list-style-type: none;
+    margin: -2rem;
+    padding: 0;
+    overflow: hidden;
+}
+
+.elem {
+    float: right;
+}
+
+.cadaElem {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+}
+
+.colab {
+    margin-top: 6%;
+    margin-bottom: -5%;
+    width: 90%;
+}
+
+.ong {
+    float: right;
+    margin-top: 1.5%;
+}
+
+.sobre {
+    float: left;
+    margin-top: 6%;
+    margin-left: -4%;
+}
+
+.logo {
+    float: left;
+    margin-top: -5%;
+    margin-left: -17%;
+}
+
+.section_left{
+    float: left;
+}
+
+.section_right{
+    float: right;
+    padding-right: 40%;
+}
+
+.section_text{
+    font-size: 1.875rem;
+    text-decoration: none;
+    color: white;
+}
+
+.separator_line{
+    padding-left: 37%;
+}
+
+.textbox{
+    border: 0.0625rem solid white;
+    font-size: 1.25rem;
+    padding: .625rem;
+    color: white;
+}
+
+.topicname{
+    font-size: 1.5625rem;
+    color: white;
+    margin-top: 1.875rem;
+}
+
+.Forum_add_topic{
+    text-align: center;
+    padding-top: 1.25rem;
+    color: white;
+    font-size: 1.25rem;
+}
+
+
+
+.topic_message{
+    resize: none;
+}
+
+.Notificated_animal_structure{
+    padding-top: 4.375rem;
+    color: white;
+    font-size: 1.875rem;
+}
+
+.previous_next li{
+    display: inline-table;
+    margin-right: 3.125rem;
+
+}
+
+.previous_next{
+    padding-left: 40%;
+}
+
+.notification_photo{
+    color: white;
+    display: inline-block;
+    margin-bottom: 6.25rem;
+}
+
+.notification_photo figcaption{
+    text-align: center;
+    font-size: 1.875rem;
+}
+
+.gallery{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.News li{
+    font-size: 1.5rem;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}

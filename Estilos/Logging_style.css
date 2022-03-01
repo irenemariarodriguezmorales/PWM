@@ -1,0 +1,29 @@
+*{
+	background-color: #2D2E33;
+	color: #FFFF;
+}
+
+.links{
+	color: #506CFF;
+}
+
+img{
+	margin-bottom: 1.25rem;
+}
+
+input{
+	text-align: center;
+}
+
+main{
+	text-align: center;
+	margin-bottom: 9.375rem;
+}
+
+footer{
+	text-align: center;
+}
+
+.wide_text{
+	resize: none;
+}
