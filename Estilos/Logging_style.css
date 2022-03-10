@@ -3,6 +3,8 @@
 	color: #FFFF;
 }
 
+
+
 .links{
 	color: #506CFF;
 }
@@ -26,4 +28,6 @@ footer{
 
 .wide_text{
 	resize: none;
+	width: 100%;
+	height: 2rem;
 }
