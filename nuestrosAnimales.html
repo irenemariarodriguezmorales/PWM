@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestros Animales</title>
     <link rel="stylesheet" href="Estilos/estilos.css">
 </head>
@@ -17,17 +18,25 @@
     <img src="Imagenes/logo.jpg" alt="Logo" class="logo">
 </header>
 
-<div class="imagenes">
-    <img src="Imagenes/perros.jpg" alt="Perros">
-    <img src="Imagenes/gatos.jpg" alt="Gatos">
-    <img src="Imagenes/perro%20y%20gatos.jpg" alt="Perros y Gatos">
-</div>
-
-<div class="perros"> <a class="cadaElem" href="perros.html">Perros</a> </div>
-<div class="gatos"> <a class="cadaElem" href="gatos.html">Gatos</a> </div>
-<div class="perrosygatos"> <a class="cadaElem" href="perrosygatos.html">Todos nuestros perros y gatos</a> </div>
 <div class="descripcion">En esta sección podrás conocer a todos los animales de nuestra organización. Podrás
-conocer a nuestros perros, a nuestros gatos y/o a todos los perros y gatos</div>
+    conocer a nuestros perros, a nuestros gatos y/o a todos los perros y gatos</div>
+
+
+<div class="imagenes">
+    <figure>
+        <img src="Imagenes/perros.jpg" alt="Perros">
+        <figcaption><a href="perros.html" class="cadaElem">Perros</a></figcaption>
+    </figure>
+    <figure>
+        <img src="Imagenes/gatos.jpg" alt="Gatos">
+        <figcaption><a href="gatos.html" class="cadaElem">Gatos</a></figcaption>
+    </figure>
+    <figure>
+        <img src="Imagenes/perro%20y%20gatos.jpg" alt="Perros">
+        <figcaption><a href="perrosygatos.html" class="cadaElem">Perros y gatos</a></figcaption>
+    </figure>
+
+</div>
 
 </body>
 </html>
