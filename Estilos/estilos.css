@@ -331,32 +331,43 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
     .cabecera {
-        padding: 11%;
-        text-align: center;
+        width: 100%;
+        height: auto;
         background: #5ECB69;
-        color: white;
-        font-size: 30px;
+        position: relative;
+        padding-top: 10rem;
+        z-index: 1;
     }
+
     .cuerpo {
         background: #2D2E33;
     }
+
     .nave {
         list-style-type: none;
-        margin: -74px;
-        padding: 0;
-        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
     .elem {
-        float: right;
+        display: inline-block;
+        padding: .875rem 1rem;
     }
 
     .cadaElem {
         display: block;
         color: white;
-        text-align: center;
-        padding: 14px 16px;
         text-decoration: none;
+        font-size: 1.25rem;
+    }
+
+    .cadaElem2 {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.25rem;
+        text-align: center;
     }
 
     .nave2 {
@@ -369,21 +380,24 @@
     }
 
     .colab {
-        margin-top: 22%;
-        margin-bottom: -21%;
-        width: 90%;
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 45%;
     }
 
     .ong {
-        margin-top: 8%;
-        margin-bottom: -15%;
-        margin-left: 88%;
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 75%;
     }
 
     .sobre {
-        float: left;
-        margin-top: 22%;
-        margin-left: -4%;
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 5%;
     }
 
     .sobre2 {
@@ -393,16 +407,24 @@
     }
 
     .logo {
-        float: left;
-        margin-top: -18%;
-        margin-left: -38%;
+        width: 60px;
+        height: auto;
+        position: absolute;
+        z-index: 2;
+        top: 10%;
+        left: 1%;
     }
 
     .imagenes {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: auto auto auto;
-        margin-top: 17%;
+        margin-top: 6%;
         margin-left: -1%;
+        text-align: center;
+    }
+
+    .imagenes figcaption {
+        font-size: 1.5rem;
     }
 
     .perros {
@@ -434,11 +456,21 @@
 
     .animales {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         margin-top: 6%;
-        margin-left: 0%;
+        margin-left: 4%;
         grid-gap: 4%;
-        grid-row-gap: 12%;
+        grid-row-gap: 5%;
+    }
+
+    .prueba {
+        width: 76%;
+    }
+
+    .prueba2 {
+        display: block;
+        color: white;
+        text-decoration: none;
     }
 
     .dalma {
@@ -518,17 +550,24 @@
     .gala {
         margin-left: 20%;
         margin-top: 0%;
+        width: 63%;
+        /* text-align: center; */
     }
 
     .adopcion {
-        margin-left: 18%;
+        /* margin-left: 18%; */
         margin-top: 2%;
+        /* text-align: center; */
+        width: 66%;
+        display: block;
+        margin: auto;
     }
 
     .titulo {
         color: #5ECB69;
         font-size: 64px;
-        margin-left: 32%;
+        /* margin-left: 32%; */
+        text-align: center;
     }
 
     .logo2 {
@@ -543,8 +582,8 @@
     }
 
     .fondo {
-        margin-bottom: -23%;
-        margin-top: -47%;
+        margin-bottom: -17%;
+        margin-top: -56%;
         opacity: 51%;
         width: 100%;
     }
@@ -636,26 +675,27 @@
 
     .usuarios {
         margin-left: 37%;
+        width: 65%;
     }
-
     .nombre {
-        margin-top: -41%;
-        margin-left: 9%;
+        margin-top: -97%;
+        margin-left: 13%;
     }
 
     .nombre2 {
-        margin-top: -20%;
-        margin-left: 9%;
+        margin-top: -49%;
+        margin-left: 13%;
+        /* text-align: right; */
     }
 
     .nombre3 {
-        margin-top: 1%;
-        margin-left: 10%;
+        margin-top: -24%;
+        margin-left: 14%;
     }
 
     .maps {
-        margin-bottom: -14%;
-        margin-left: -91%;
+        margin-bottom: -6%;
+        margin-left: -101%;
     }
 
 }
