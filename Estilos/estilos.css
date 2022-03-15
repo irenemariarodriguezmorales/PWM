@@ -1,12 +1,12 @@
 @media only screen and (min-width:992px) {
 
     .cabecera {
-        padding: 15%;
-        text-align: center;
+        width: 100%;
+        height: auto;
         background: #5ECB69;
-        color: white;
-        font-size: 30px;
-        margin: -8%;
+        position: relative;
+        padding-top: 10rem;
+        z-index: 1;
     }
 
     .cuerpo {
@@ -15,21 +15,30 @@
 
     .nave {
         list-style-type: none;
-        margin: -74px;
-        padding: 0;
-        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
+
     .elem {
-        float: right;
+        display: inline-block;
+        padding: .875rem 1rem;
     }
 
     .cadaElem {
         display: block;
         color: white;
-        text-align: center;
-        padding: 14px 16px;
         text-decoration: none;
+        font-size: 1.25rem;
+    }
+
+    .cadaElem2 {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.25rem;
+        text-align: center;
     }
 
     .nave2 {
@@ -42,33 +51,46 @@
     }
 
     .colab {
-        margin-top: 20%;
-        width: 90%;
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 45%;
     }
 
     .ong {
-        margin-left: 94%;
-        margin-bottom: -19%;
-        margin-top: -11.5%;
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 75%;
     }
 
     .sobre {
-        float: left;
-        margin-top: 20%;
-        margin-left: -4%;
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 5%;
     }
 
     .logo {
-        float: left;
-        margin-top: -4%;
-        margin-left: -24%;
+        width: 75px;
+        height: auto;
+        position: absolute;
+        z-index: 2;
+        top: 10%;
+        left: 1%;
     }
 
     .imagenes {
         display: grid;
         grid-template-columns: auto auto auto;
-        margin-top: 23%;
-        margin-left: 4%;
+        margin-top: 2%;
+        margin-left: -2%;
+        grid-column-gap: 2%;
+    }
+
+    .tam {
+        width: 116%;
+        height: 78%;
     }
 
     .perros {
@@ -101,7 +123,7 @@
     .animales {
         display: grid;
         grid-template-columns: auto auto auto;
-        margin-top: 13%;
+        margin-top: 2%;
         margin-left: 2%;
         grid-gap: 7%;
     }
@@ -172,7 +194,7 @@
     .parrafo {
         font-size: 24px;
         color: white;
-        margin-top: 10%;
+        margin-top: 2%;
     }
 
     .auditorio {
@@ -193,8 +215,9 @@
     .titulo {
         color: #5ECB69;
         font-size: 64px;
-        margin-left: 39%;
+        /* margin-left: 39%; */
         margin-top: 8%;
+        text-align: center;
     }
 
     .logo2 {
@@ -210,15 +233,17 @@
     }
 
     .fondo {
-        margin-bottom: -22%;
-        margin-top: -54%;
+        /* margin-bottom: -22%; */
+        margin-top: -64%;
         opacity: 51%;
-        width: 108%;
+        width: 100%;
+        /* position: fixed; */
+        /* display: block; */
     }
 
     .fondo2 {
-        width: 108%;
-        margin-top: 8%;
+        width: 100%;
+        margin-top: 0%;
     }
 
     .ong2 {
@@ -303,28 +328,41 @@
     }
 
     .usuarios {
-        margin-left: 23%;
+        margin-left: 39%;
+        width: 46%;
     }
 
     .nombre {
-        margin-top: -41%;
-        margin-left: 11%;
+        margin-top: -29%;
+        margin-left: 7%;
     }
 
     .nombre2 {
-        margin-top: -21%;
-        margin-left: 12%;
+        margin-top: -15%;
+        margin-left: 7%;
     }
 
     .nombre3 {
         margin-top: 1%;
-        margin-left: 12%;
+        margin-left: 7%;
     }
 
     .maps {
-        margin-bottom: -14%;
-        margin-left: -92%;
+        margin-bottom: -19%;
+        margin-left: -84%;
+        /* margin-top: 22%; */
     }
+
+    .prueba2 {
+        display: block;
+        color: white;
+        text-decoration: none;
+    }
+
+    .prueba {
+        width: 76%;
+    }
+
 
 }
 
@@ -1062,6 +1100,14 @@
         margin-left: -101%;
         margin-top: 24%;
         width: 46%;
+    }
+
+    .cadaElem2 {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.25rem;
+        text-align: center;
     }
 
 }
