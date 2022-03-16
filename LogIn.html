@@ -18,9 +18,9 @@
 			<br><br>
 			<img class="logging_subimage" src="Imagenes/profile_icon.png">
 			<form action="">
-				<input type="text" name="mail" placeholder="Email" size="30">
+				<input type="text" id="usermail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required name="mail" placeholder="Email" size="30">
 				<br><br>
-				<input type="password" name="password" placeholder="Password">
+				<input type="password" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" id="userpassword" required name="password" placeholder="Password">
 				<br><br>
 				<input type="submit" value="Entrar">
 			</form>

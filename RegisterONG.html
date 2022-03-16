@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Log In</title>
+		<title>ONG Register</title>
 		<link rel=stylesheet href="Estilos/Main_style.css">
 	</head>
 
@@ -18,17 +18,17 @@
 			<br><br>
 			<img class="logging_subimage" src="Imagenes/profile_icon.png">
 			<form action="">
-				<input type="text" name="nombre" placeholder="Nombre del refugio" size="30">
+				<input type="text" id="ongname" required name="nombre" placeholder="Nombre del refugio" size="30">
 				<br><br>
-				<input type="text" name="mail" placeholder="Email" size="30">
+				<input type="text" id="ongmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required name="mail" placeholder="Email" size="30">
 				<br><br>
-				<input type="text" name="location" placeholder="Direccion" size="30">
+				<input type="text" id="onglocation" required name="location" placeholder="Direccion" size="30">
 				<br><br>
-				<input type="text" name="postal" placeholder="Codigo postal" size="30">
+				<input type="text" id="ongzipcode" pattern="[0-9]{5}" required name="postal" placeholder="Codigo postal" size="30">
 				<br><br>
-				<input type="text" name="number" placeholder="Numero de contacto" size="30">
+				<input type="text" id="ongnumber" pattern="[0-9]{9}" required name="number" placeholder="Numero de contacto" size="30">
 				<br><br>
-				<input type="password" name="password" placeholder="Password" size="30">
+				<input type="password" id="ongpassword" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" required name="password" placeholder="Password" size="30">
 				<br><br>
 				<input type="submit" value="Registrar">
 			</form>
