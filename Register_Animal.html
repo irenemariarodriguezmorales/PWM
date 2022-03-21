@@ -2,35 +2,39 @@
 <html lang="es">
 <html>
 	<head>
-		<title>Log In</title>
-		<link rel=stylesheet href="Estilos/Logging_style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Animal Addition</title>
+		<link rel=stylesheet href="Estilos/Main_style.css">
 	</head>
 
-	<header>
-		<a href="MainPage.html"><img src="Imagenes/logo.png"></a>
-	</header>
-
-	<main>
-		<img src="Imagenes/registrar_animal.png" width="411" height="175">
-		<br><br>
-		<img src="Imagenes/dogandcat.png" width="120" height="120">
-		<br><br>
-		Fotos del animal<br>
-		<br>
-		<form action="">
-			<input type="file" accept=".png, .jpeg, .jpg" multiple name="animal_images">
+	<body class="cuerpo">
+		<header>
+		    <a href="MainPage.html"><img src="Imagenes/logo.png" alt="Logo" class="logging_logo"></a>
+		</header>
+		
+		<main class="logging_style">
+			<img class="logging_image" src="Imagenes/registrar_animal.png">
 			<br><br>
-			<input type="text" name="animalname" placeholder="Nombre">
-			<select name="race">
-				<option value="dog">Perro</option>
-				<option value="cat">Gato</option>
-			</select>
+			<img src="Imagenes/dogandcat.png" class="logging_subimage">
 			<br><br>
-			<textarea class="wide_text" name="animal_description" placeholder="Descripcion del animal" cols="100" rows="30"></textarea>
+			Fotos del animal<br>
 			<br>
-			<input type="submit" name="" value="Registrar">
-		</form>
-	</main>
+			<form action="">
+				<input type="file" id="animalimages" accept=".png, .jpeg, .jpg" multiple name="animal_images" style="font-size: 0.5rem">
+				<br><br>
+				<input type="text" id="animalname" pattern="([A-Z])([a-z]{1,})" required name="animalname" placeholder="Nombre">
+				<select required name="race">
+					<option value="dog">Perro</option>
+					<option value="cat">Gato</option>
+				</select>
+				<br><br>
+				<textarea required id="animaldescription" class="topic_message" name="animal_description" placeholder="Descripcion del animal"></textarea>
+				<br>
+				<input type="submit" name="" value="Registrar">
+			</form>
+		</main>
+		
+	</body>
 
 	<footer>
 	</footer>

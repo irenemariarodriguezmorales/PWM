@@ -1,134 +1,668 @@
-.cabecera {
-    padding: 5%;
-    text-align: center;
-    background: #5ECB69;
-    color: white;
-    font-size: 2rem;
+@media screen and (max-width: 767px){
+            *{
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+
+    a {
+        color: royalblue;
+    }
+
+    .cabecera {
+        position: relative;
+        z-index: 1;
+        padding: 1%;
+        text-align: center;
+        background: #5ECB69;
+        color: white;
+        width: 100%;
+    }
+
+
+    .cuerpo {
+        background: #2D2E33;
+    }
+    .nave {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .addanimal,.notifications{
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .cadaElem {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .logo, .logging_logo{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-right: 10px;
+        padding-top: 10px;
+        z-index: 2;
+        width: 70px;
+        height: auto;
+    }
+
+    .section_left{
+        float: none;
+    }
+
+    .section_right{
+        float: none;
+    }
+
+    .section_text{
+        font-size: 1.875rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    .separator_line{
+        padding-left: 37%;
+    }
+
+    .textbox{
+        border: 0.0625rem solid white;
+        font-size: 1.25rem;
+        padding: .625rem;
+        color: white;
+    }
+
+    .topicname{
+        font-size: 1.5625rem;
+        color: white;
+        margin-top: 1.875rem;
+    }
+
+    .Forum_add_topic{
+        text-align: center;
+        padding-top: 1.25rem;
+        color: white;
+        font-size: 1.25rem;
+    }
+
+    .topic_message{
+        resize: none;
+        width: 100%;
+        height: 20rem;
+    }
+
+    .Notificated_animal_structure{
+        text-align: center;
+        padding-top: 3rem;
+        height: auto;
+        color: white;
+        font-size: 1.875rem;
+    }
+
+    .Notificated_animal_structure img{
+        width: 300px;
+        height: auto;
+    }
+
+    .Notificated_animal_structure textarea{
+        resize: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .previous_next li{
+        display: inline-table;
+        margin-right: 3.125rem;
+
+    }
+
+    .notification_photo{
+        color: white;
+        display: inline-block;
+        margin-bottom: 6.25rem;
+    }
+
+    .notification_photo img{
+        width: 300px;
+        height: auto;
+    }
+
+    .notification_photo figcaption{
+        font-size: 1rem;
+    }
+
+    .notification_photo figcaption{
+        text-align: center;
+        font-size: 1.875rem;
+    }
+
+    .gallery{
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .News li{
+        font-size: 1.5rem;
+        list-style-type: none;
+        margin-bottom: 1rem;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .News a{
+        text-decoration: none;
+    }
+
+    .ouranimalslink {
+        width: 100%;
+        height: auto;
+    }
+
+    .logging_image{
+        padding-top: 3rem;
+        width: 75%;
+        height: auto;
+    }
+
+    .logging_subimage{
+        width: 20%;
+        height: auto;
+    }
+
+    .logging_style{
+        text-align: center;
+        color: white;
+        margin-bottom: 2.5rem;
+    }
+
+    .logging_style, .logging_style a{
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .addanimal a,.notifications a{
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+
 }
-.cuerpo {
-    background: #2D2E33;
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    *{
+        box-sizing: border-box;
+        font-size: 19px;
+    }
+
+    a {
+        color: royalblue;
+    }
+
+    .logging_logo{
+        width: 85px;
+        height: auto;
+        position: absolute;
+        z-index: 2;
+        top: 2.5%;
+        left: 2.5%;
+    }
+
+    .cabecera {
+        width: 100%;
+        height: auto;
+        background: #5ECB69;
+        position: relative;
+        padding-top: 10rem;
+        z-index: 1;
+    }
+
+
+    .cuerpo {
+        background: #2D2E33;
+    }
+    .nave {
+        list-style-type: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .elem {
+        display: inline-block;
+        padding: .875rem 1rem;
+    }
+
+    .cadaElem {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+
+    .colab {
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 45%;
+    }
+
+    .ong {
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 75%;
+    }
+
+    .sobre {
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 5%;
+    }
+
+    .logo {
+        width: 60px;
+        height: auto;
+        position: absolute;
+        z-index: 2;
+        top: 10%;
+        left: 1%;
+    }
+
+    .section_left{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+
+    .section_right{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+
+    .section_text{
+        font-size: 1.875rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    .separator_line{
+        padding-left: 37%;
+    }
+
+    .textbox{
+        border: 0.0625rem solid white;
+        font-size: 1.25rem;
+        padding: .625rem;
+        color: white;
+    }
+
+    .topicname{
+        font-size: 1.5625rem;
+        color: white;
+        margin-top: 1.875rem;
+    }
+
+    .Forum_add_topic{
+        text-align: center;
+        padding-top: 1.25rem;
+        color: white;
+    }
+
+    .Forum_add_topic form{
+        font-size: 2rem;
+    }
+
+    .topic_message{
+        resize: none;
+        width: 100%;
+        height: 30rem;
+    }
+
+    .Notificated_animal_structure{
+        text-align: center;
+        padding-top: 3rem;
+        height: auto;
+        color: white;
+    }
+
+    .Notificated_animal_structure img{
+        width: 500px;
+        height: auto;
+    }
+
+    .Notificated_animal_structure section{
+        font-size: 1.875rem;
+        margin-bottom: 3rem;
+    }
+
+    .Notificated_animal_structure textarea{
+        resize: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .previous_next li{
+        display: inline-table;
+        margin-right: 3.125rem;
+
+    }
+
+    .notification_photo{
+        color: white;
+        display: inline-block;
+        margin-bottom: 6.25rem;
+    }
+
+    .notification_photo img{
+        width: 300px;
+        height: auto;
+    }
+
+    .notification_photo figcaption{
+        font-size: 1rem;
+    }
+
+    .notification_photo figcaption{
+        text-align: center;
+        font-size: 1.875rem;
+    }
+
+    .gallery{
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .News li{
+        font-size: 1.5rem;
+        list-style-type: none;
+        margin-bottom: 1rem;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .News a{
+        text-decoration: none;
+    }
+
+    .ouranimalslink {
+        width: 100%;
+        height: auto;
+    }
+
+    .logging_image{
+        padding-top: 3rem;
+        width: 75%;
+        height: auto;
+    }
+
+    .logging_subimage{
+        width: 20%;
+        height: auto;
+    }
+
+    .logging_style{
+        text-align: center;
+        color: white;
+        margin-bottom: 2.5rem;
+    }
+
+    .logging_style, .logging_style a{
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .addanimal a,.notifications a{
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
 }
-.nave {
-    list-style-type: none;
-    margin: -2rem;
-    padding: 0;
-    overflow: hidden;
-}
-
-.elem {
-    float: right;
-}
-
-.cadaElem {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: .875rem 1rem;
-    text-decoration: none;
-}
-
-.colab {
-    margin-top: 6%;
-    margin-bottom: -5%;
-    width: 90%;
-}
-
-.ong {
-    float: right;
-    margin-top: 1.5%;
-}
-
-.sobre {
-    float: left;
-    margin-top: 6%;
-    margin-left: -4%;
-}
-
-.logo {
-    float: left;
-    margin-top: -5%;
-    margin-left: -17%;
-}
-
-.section_left{
-    float: left;
-}
-
-.section_right{
-    float: right;
-    padding-right: 40%;
-}
-
-.section_text{
-    font-size: 1.875rem;
-    text-decoration: none;
-    color: white;
-}
-
-.separator_line{
-    padding-left: 37%;
-}
-
-.textbox{
-    border: 0.0625rem solid white;
-    font-size: 1.25rem;
-    padding: .625rem;
-    color: white;
-}
-
-.topicname{
-    font-size: 1.5625rem;
-    color: white;
-    margin-top: 1.875rem;
-}
-
-.Forum_add_topic{
-    text-align: center;
-    padding-top: 1.25rem;
-    color: white;
-    font-size: 1.25rem;
-}
 
 
+@media(min-width: 1024px){
+    *{
+        box-sizing: border-box;
+        font-size: 22px;
+    }
 
-.topic_message{
-    resize: none;
-}
+    a {
+        color: royalblue;
+    }
 
-.Notificated_animal_structure{
-    padding-top: 4.375rem;
-    color: white;
-    font-size: 1.875rem;
-}
+    .logging_logo{
+        width: 75px;
+        height: auto;
+        position: absolute;
+        z-index: 2;
+        top: 2.5%;
+        left: 2.5%;
+    }
 
-.previous_next li{
-    display: inline-table;
-    margin-right: 3.125rem;
+    .cabecera {
+        width: 100%;
+        height: auto;
+        background: #5ECB69;
+        position: relative;
+        padding-top: 10rem;
+        z-index: 1;
+    }
 
-}
 
-.previous_next{
-    padding-left: 40%;
-}
+    .cuerpo {
+        background: #2D2E33;
+    }
+    .nave {
+        list-style-type: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 
-.notification_photo{
-    color: white;
-    display: inline-block;
-    margin-bottom: 6.25rem;
-}
+    .elem {
+        display: inline-block;
+        padding: .875rem 1rem;
+    }
 
-.notification_photo figcaption{
-    text-align: center;
-    font-size: 1.875rem;
-}
+    .cadaElem {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
 
-.gallery{
-    text-align: center;
-    padding-top: 1rem;
-}
+    .colab {
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 45%;
+    }
 
-.News li{
-    font-size: 1.5rem;
-    list-style-type: none;
-    margin-bottom: 1rem;
+    .ong {
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 75%;
+    }
+
+    .sobre {
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 5%;
+    }
+
+    .logo {
+        width: 75px;
+        height: auto;
+        position: absolute;
+        z-index: 2;
+        top: 10%;
+        left: 1%;
+    }
+
+    .section_left{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+
+    .section_right{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+
+    .section_text{
+        font-size: 1.875rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    .separator_line{
+        padding-left: 37%;
+    }
+
+    .textbox{
+        border: 0.0625rem solid white;
+        font-size: 1.25rem;
+        padding: .625rem;
+        color: white;
+    }
+
+    .topicname{
+        font-size: 1.5625rem;
+        color: white;
+        margin-top: 1.875rem;
+    }
+
+    .Forum_add_topic{
+        text-align: center;
+        padding-top: 1.25rem;
+        color: white;
+    }
+
+    .Forum_add_topic form{
+        font-size: 2rem;
+    }
+
+    .topic_message{
+        resize: none;
+        width: 100%;
+        height: 14rem;
+    }
+
+    .Notificated_animal_structure{
+        text-align: center;
+        padding-top: 3rem;
+        height: auto;
+        color: white;
+    }
+
+    .Notificated_animal_structure img{
+        width: 350px;
+        height: auto;
+    }
+
+    .Notificated_animal_structure section{
+        width: 45%;
+        font-size: 1.5rem;
+        float: left;
+    }
+
+    .Notificated_animal_structure textarea{
+        resize: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .previous_next li{
+        display: inline-table;
+        margin-right: 3.125rem;
+
+    }
+
+    .notification_photo{
+        color: white;
+        display: inline-block;
+        margin-bottom: 6.25rem;
+    }
+
+    .notification_photo img{
+        width: 300px;
+        height: auto;
+    }
+
+    .notification_photo figcaption{
+        font-size: 1rem;
+    }
+
+    .notification_photo figcaption{
+        text-align: center;
+        font-size: 1.875rem;
+    }
+
+    .gallery{
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .News li{
+        font-size: 1.5rem;
+        list-style-type: none;
+        margin-bottom: 1rem;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .News a{
+        text-decoration: none;
+    }
+
+    .ouranimalslink {
+        width: 100%;
+        height: auto;
+    }
+
+    .logging_image{
+        padding-top: 3rem;
+        width: 40%;
+        height: auto;
+    }
+
+    .logging_subimage{
+        width: 8%;
+        height: auto;
+    }
+
+    .logging_style{
+        text-align: center;
+        color: white;
+        margin-bottom: 2.5rem;
+    }
+
+    .logging_style, .logging_style a{
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .addanimal a,.notifications a{
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
 }
