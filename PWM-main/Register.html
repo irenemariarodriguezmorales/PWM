@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Register</title>
+		<link rel=stylesheet href="Estilos/Main_style.css">
+	</head>
+
+	<body class="cuerpo">
+
+		<header>
+			<a href="MainPage.html"><img src="Imagenes/logo.png" alt="Logo" class="logging_logo"></a>
+		</header>
+
+		<main class="logging_style">
+			<img class="logging_image" src="Imagenes/registrarse.png">
+			<br><br>
+			<img class="logging_subimage" src="Imagenes/profile_icon.png">
+			<form action="">
+				<input type="text" id="registername" pattern="([A-Z])([a-z]{1,})|(([A-Z])([a-z]{1,}\s)([A-Z])([a-z]{1,}))" required name="nombre" placeholder="Nombre">
+				<input type="text" id="registersurname" pattern="([A-Z])([a-z]{1,})|(([A-Z])([a-z]{1,}\s)([A-Z])([a-z]{1,}))" required name="apellidos" placeholder="Apellidos">
+				<br><br>
+				<input type="text" id="registermail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required name="mail" placeholder="Email" size="30">
+				<br><br>
+				<input type="password" id="registerpassword" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" required name="password" placeholder="Password">
+				<br><br>
+				<input type="submit" value="Registrar">
+			</form>
+		</main>
+
+		<footer class="logging_style">
+			¿Ya tienes una cuenta? <a href="LogIn.html">Iniciar sesión</a>
+			<br><br>
+			¿Quiere registrar un refugio? <a href="RegisterONG.html">Registrar refugio</a>
+		</footer>
+
+	</body>
+</html>
