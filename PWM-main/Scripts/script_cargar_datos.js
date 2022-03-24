@@ -14,40 +14,40 @@ $(document).ready(function(){
             case "perrosygatos.html":
 
                 data = json.animales;
-                $(".animales").empty();
+                $(".gallery").empty();
                 $.each(data, function(i) {
-                    var divcode= '<div >\
-                                    <img src="' + data[i].images + '" alt="defecto1" className="prueba">\
-                                    <a className="prueba3" href="eleccionAnimal.html?id='+ data[i].id +'">'+ data[i].name + '</a>\
-                                   </div>';
-                    $(".animales").append(divcode);
+                    var divcode= '<figure class="notification_photo">\
+                                        <a href="eleccionAnimal.html?id='+data[i].id+'"><img src="'+data[i].images+'"></a>\
+                                        <figcaption>'+data[i].name+'</figcaption>\
+                                    </figure>';
+                    $(".gallery").append(divcode);
                 });
             break;
 
             case "perros.html":
                 data = json.animales;
-                $(".animales").empty();
+                $(".gallery").empty();
                 $.each(data, function(i) {
                     if(data[i].type=="perro") {
-                        var divcode= '<div >\
-                                    <img src="' + data[i].images + '" alt="defecto1" className="prueba">\
-                                    <a className="prueba3" href="eleccionAnimal.html?id='+ data[i].id +'">'+ data[i].name + '</a>\
-                                   </div>';
-                        $(".animales").append(divcode);
+                        var divcode= '<figure class="notification_photo">\
+                                        <a href="eleccionAnimal.html?id='+data[i].id+'"><img src="'+data[i].images+'"></a>\
+                                        <figcaption>'+data[i].name+'</figcaption>\
+                                    </figure>';
+                        $(".gallery").append(divcode);
                     }
                 });
             break;
 
             case "gatos.html":
                 data = json.animales;
-                $(".animales").empty();
+                $(".gallery").empty();
                 $.each(data, function(i) {
                     if(data[i].type=="gato") {
-                        var divcode= '<div >\
-                                    <img src="' + data[i].images + '" alt="defecto1" className="prueba">\
-                                    <a className="prueba3" href="eleccionAnimal.html?id='+ data[i].id +'">'+ data[i].name + '</a>\
-                                   </div>';
-                        $(".animales").append(divcode);
+                        var divcode= '<figure class="notification_photo">\
+                                        <a href="eleccionAnimal.html?id='+data[i].id+'"><img src="'+data[i].images+'"></a>\
+                                        <figcaption>'+data[i].name+'</figcaption>\
+                                    </figure>';
+                        $(".gallery").append(divcode);
                     }
                 });
             break;
@@ -60,7 +60,8 @@ $(document).ready(function(){
                     if(data[i].id==flag) {
                         $(".elec").text(data[i].name);
                         $(".eleccion").attr("src", data[i].images);
-                        $(".elec1").text("Sobre " +  data[i].name + ": " + data[i].description + " Se encuentra en " + data[i].location);
+                        $(".elec1").text("Sobre " +  data[i].name + ":");
+                        $(".aboutanimal").append(data[i].description + "\nSe encuentra en " + data[i].location);
                     }
                 });
             break;

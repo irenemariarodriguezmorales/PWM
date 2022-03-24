@@ -1,4 +1,31 @@
-@media only screen and (min-width:992px) {
+@media(min-width: 1024px){
+
+
+
+    .notification_photo{
+        color: white;
+        display: inline-block;
+        margin-bottom: 6.25rem;
+    }
+
+    .notification_photo img{
+        width: 300px;
+        height: auto;
+    }
+
+    .notification_photo figcaption{
+        font-size: 1rem;
+    }
+
+    .notification_photo figcaption{
+        text-align: center;
+        font-size: 1.875rem;
+    }
+
+    .gallery{
+        text-align: center;
+        padding-top: 1rem;
+    }
 
     .prueba3 {
         text-align: center;
@@ -94,8 +121,8 @@
     }
 
     .tam {
-        width: 116%;
-        height: 78%;
+        width: 100%;
+        height: auto;
     }
 
     .perros {
@@ -318,26 +345,41 @@
     .elec {
         font-size: 24px;
         color: white;
-        margin-left: 2%;
-        margin-top: 10%;
+
     }
 
     .eleccion {
-        margin-left: 1%;
+        width: 450px;
+        height: auto;
     }
 
-    /*.elec1 {
-        font-size: 24px;
-        color: white;
-        margin-left: 39%;
-        margin-top: -25.5%;
-    }*/
 
     .elec1 {
         font-size: 24px;
         color: white;
-        margin-left: 30%;
-        margin-top: -16.5%;
+    }
+
+
+    .info1, .info2{
+        float: left;
+    }
+
+    .info1{
+        width: 30%;
+        padding-left: 2rem;
+        text-align: center;
+        margin-right: 10%;
+    }
+
+    .info2 {
+        padding-left: 6rem;
+        width: auto;
+    }
+
+    .info2 textarea {
+        resize: none;
+        width: 500px;
+        height: 150px;
     }
 
     .usuarios {
@@ -361,9 +403,7 @@
     }
 
     .maps {
-        margin-bottom: -19%;
-        margin-left: -84%;
-        /* margin-top: 22%; */
+        padding-top: 1.5rem;
     }
 
     .prueba2 {
@@ -379,7 +419,37 @@
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .tam {
+        width: 500px;
+        height: auto;
+    }
+
+    .notification_photo{
+        color: white;
+        display: inline-block;
+        margin-bottom: 6.25rem;
+    }
+
+    .notification_photo img{
+        width: 300px;
+        height: auto;
+    }
+
+    .notification_photo figcaption{
+        font-size: 1rem;
+    }
+
+    .notification_photo figcaption{
+        text-align: center;
+        font-size: 1.875rem;
+    }
+
+    .gallery{
+        text-align: center;
+        padding-top: 1rem;
+    }
 
     .cabecera {
         width: 100%;
@@ -709,19 +779,33 @@
     .elec {
         font-size: 24px;
         color: white;
-        margin-left: 1%;
-        margin-top: 5%;
+
     }
 
     .eleccion {
-        margin-left: 1%;
-    }
+        width: 450px;
+        height: auto;
+}
+
 
     .elec1 {
         font-size: 24px;
         color: white;
-        margin-left: 50%;
-        margin-top: -21.5%;
+    }
+
+
+    .info1, .info2{
+        text-align: center;
+    }
+
+    .info1{
+        white-space: pre;
+    }
+
+    .info2 textarea{
+        resize: none;
+        width: 80%;
+        height: 150px;
     }
 
     .usuarios {
@@ -745,13 +829,39 @@
     }
 
     .maps {
-        margin-bottom: -6%;
-        margin-left: -101%;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        width: 350px;
     }
 
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
+
+    .notification_photo{
+        color: white;
+        display: inline-block;
+        margin-bottom: 6.25rem;
+    }
+
+    .notification_photo img{
+        width: 300px;
+        height: auto;
+    }
+
+    .notification_photo figcaption{
+        font-size: 1rem;
+    }
+
+    .notification_photo figcaption{
+        text-align: center;
+        font-size: 1.875rem;
+    }
+
+    .gallery{
+        text-align: center;
+        padding-top: 1rem;
+    }
 
     .cabecera {
         position: relative;
@@ -773,6 +883,8 @@
         width: 100%;
         margin: -1%;
     }
+
+
 
     .cuerpo {
         background: #2D2E33;
@@ -1063,20 +1175,33 @@
     .elec {
         font-size: 24px;
         color: white;
-        margin-left: 1%;
-        margin-top: 5%;
+
     }
 
     .eleccion {
-        margin-left: 1%;
-        width: 46%;
-    }
+        width: 90%;
+        height: auto;
+}
+
 
     .elec1 {
         font-size: 24px;
         color: white;
-        margin-left: 54%;
-        margin-top: -27.5%;
+    }
+
+
+    .info1, .info2{
+        text-align: center;
+    }
+
+    .info1{
+        white-space: pre;
+    }
+
+    .info2 textarea{
+        resize: none;
+        width: 80%;
+        height: 150px;
     }
 
     .usuarios {
@@ -1109,10 +1234,9 @@
     }
 
     .maps {
-        margin-bottom: -21%;
-        margin-left: -101%;
-        margin-top: 24%;
-        width: 46%;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        width: 80%;
     }
 
     .cadaElem2 {
@@ -1121,6 +1245,11 @@
         text-decoration: none;
         font-size: 1.25rem;
         text-align: center;
+    }
+
+    .tam {
+        width: 100%;
+        height: auto;
     }
 
 }

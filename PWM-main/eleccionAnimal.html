@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elección Animal</title>
     <script src="Scripts/jquery-3.6.0.min.js"></script>
     <script src="Scripts/script_cargar_datos.js"></script>
@@ -19,11 +20,20 @@
     <a href="MainPage.html"><img src="Imagenes/logo.png" alt="Logo" class="logo"></a>
 </header>
 
-<p class="elec">Nombre del animal escogido</p>
-<img src="Imagenes/fotoEleccion.jpg" alt="eleccion" class="eleccion">
-<p class="elec1">Sobre (nombre del animal):</p>
-<button>Quiero Concertar cita</button>
-<img src="Imagenes/maps.jpg" alt="usuarios" class="maps">
+<div class="info1">
+    <p class="elec">Nombre del animal escogido</p>
+    <img src="Imagenes/fotoEleccion.jpg" alt="eleccion" class="eleccion">
+    <img src="Imagenes/maps.jpg" alt="usuarios" class="maps">
+</div>
+
+<div class="info2">
+    <p class="elec1">Sobre (nombre del animal):</p>
+    <textarea class="aboutanimal" readonly></textarea>
+    <br>
+    <button>Quiero Concertar cita</button>
+</div>
+
+
 
 </body>
 </html>
