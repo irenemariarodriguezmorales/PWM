@@ -1,0 +1,39 @@
+<body class="cuerpo">
+    <div class="cabecera">
+        <ul class="nave">
+            <li class="elem"><a class="cadaElem" href="LogIn">Cerrar Sesión</a></li>
+        </ul>
+        <div class="sobre"> <a class="cadaElem" href="sobreNosotros">Sobre nosotros</a> </div>
+        <div class="colab"> <a class="cadaElem" href="colabora">Colabora</a> </div>
+        <div class="ong"> <a class="cadaElem" href="ongColaboradoras">ONG colaboradoras</a> </div>
+        <a href="MainPage"><img src="assets/images/logo.png" alt="Logo" class="logo"></a>
+    </div>
+
+    <main>
+        <div class="addanimal"><a href="Register_animal">Añadir animal</a></div>
+		<!--<div class="notifications"><a href="Admin_notifications">Notificaciones</a></div>-->
+        <div class="notifications"><a href="Admin_delete">Borrar animal</a></div>
+        <div class="notifications"><a href="Admin_update">Actualizar animal</a></div>
+        <a href="nuestrosAnimales"><img class="ouranimalslink" src="assets/images/main_animals.png"></a>
+        <section class="section_left">
+            <a href="#" class="section_text">Noticias relacionadas</a>
+			<app-allnews></app-allnews>
+            <!--<ul class="News">
+                {{refresh()}}
+                <li *ngFor="let page_new of latest_news">
+                    <a href="News/{{page_new.id}}">{{page_new.title}}</a>
+                </li>
+            </ul>-->
+        </section>
+        <section class="section_right" style="text-align: left;">
+            <a href="Forum" class="section_text">Foro general</a>
+            <br>
+            <span style="color:bisque;">
+                {{getName(last_comment.idautor)}}
+                :
+                {{last_comment.texto}}
+            </span>
+            
+        </section>
+    </main>
+</body>

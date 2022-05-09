@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/dogsandcats/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

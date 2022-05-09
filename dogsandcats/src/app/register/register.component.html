@@ -1,0 +1,29 @@
+<body class="cuerpo">
+
+		<div>
+			<a href="MainPage"><img src="assets/images/logo.png" alt="Logo" class="logging_logo"></a>
+		</div>
+
+		<main class="logging_style">
+			<img class="logging_image" src="assets/images/registrarse.png">
+			<br><br>
+			<img class="logging_subimage" src="assets/images/profile_icon.png">
+			<div>
+				<input type="text" id="registername" pattern="([A-Z])([a-z]{1,})|(([A-Z])([a-z]{1,}\s)([A-Z])([a-z]{1,}))" required name="nombre" placeholder="Nombre">
+				<input type="text" id="registersurname" pattern="([A-Z])([a-z]{1,})|(([A-Z])([a-z]{1,}\s)([A-Z])([a-z]{1,}))" required name="apellidos" placeholder="Apellidos">
+				<br><br>
+				<input type="text" id="registermail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required name="mail" placeholder="Email" size="30">
+				<br><br>
+				<input type="password" id="registerpassword" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" required name="password" placeholder="Password">
+				<br><br>
+				<input type="button" (click)="registerCheck()" value="Registrar">
+			</div>
+		</main>
+
+		<footer class="logging_style">
+			¿Ya tienes una cuenta? <a href="LogIn">Iniciar sesión</a>
+			<br><br>
+			¿Quiere registrar un refugio? <a href="RegisterONG">Registrar refugio</a>
+		</footer>
+
+	</body>
