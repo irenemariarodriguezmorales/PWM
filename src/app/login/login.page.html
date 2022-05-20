@@ -1,0 +1,33 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <div>
+    <a href="MainPage"><img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Flogo.png?alt=media&token=8625a1b5-8f7d-4c7f-893d-cab248d5f88b" alt="Logo" class="logging_logo"></a>
+  </div>
+  <main class="logging_style">
+    <img class="logging_image" src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Finicio_sesion.png?alt=media&token=27b44d9c-8786-49ff-89ff-4edbe7627566">
+    <br><br>
+    <img class="logging_subimage" src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Fprofile_icon.png?alt=media&token=4a7cb207-5748-4756-83b6-a32015f5c8a3">
+    <div>
+      <input type="text" id="usermail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required name="mail" placeholder="Email" size="30">
+      <br><br>
+      <input type="password" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" id="userpassword" required name="password" placeholder="Password">
+      <br><br>
+      <input type="button" (click)="loginCheck()" value="Entrar">
+    </div>
+
+    <!--form onsubmit="loginCheck()">
+      <input type="text" id="usermail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required name="mail" placeholder="Email" size="30">
+      <br><br>
+      <input type="password" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" id="userpassword" required name="password" placeholder="Password">
+      <br><br>
+      <input type="submit" value="Entrar">
+    </form>-->
+
+  </main>
+
+  <footer class="logging_style">
+    ¿No tienes cuenta? <a href="Register">Registrarse</a>
+  </footer>
+</ion-content>

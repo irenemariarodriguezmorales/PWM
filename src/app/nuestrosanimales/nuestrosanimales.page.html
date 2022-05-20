@@ -1,0 +1,37 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+    <div class="cabecera">
+		<ul class="nave" *ngIf="getCurrentUser() == null">
+			<li class="elem"><a class="cadaElem" href="LogIn">Iniciar sesión</a></li>
+			<li class="elem"><a class="cadaElem" href="Register">Registrarse</a></li>
+		</ul>
+		<ul class="nave" *ngIf="getCurrentUser() != null">
+			<li class="elem"><a class="cadaElem" href="MainPage" (click)="logOut()">Cerrar Sesión</a></li>
+		</ul>
+		<div class="sobre"> <a class="cadaElem" href="sobreNosotros">Sobre nosotros</a> </div>
+		<div class="colab"> <a class="cadaElem" href="colabora">Colabora</a> </div>
+		<div class="ong"> <a class="cadaElem" href="ongColaboradoras">ONG colaboradoras</a> </div>
+		<a href="MainPage"><img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Flogo.png?alt=media&token=8625a1b5-8f7d-4c7f-893d-cab248d5f88b" alt="Logo" class="logo"></a>
+	</div>
+  <div class="descripcion">En esta sección podrás conocer a todos los animales de nuestra organización. Podrás
+    conocer a nuestros perros, a nuestros gatos y/o a todos los perros y gatos</div>
+
+
+<div class="imagenes">
+    <figure>
+        <a href="perros" ><img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Fperros.jpg?alt=media&token=8d96ce70-b6f1-421b-89c4-85d5c15e9851" alt="Perros" class="tam"></a>
+        <figcaption class="cadaElem2">Perros</figcaption>
+    </figure>
+    <figure>
+        <a href="gatos" class="cadaElem2"><img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Fgatos.jpg?alt=media&token=b8923f94-2ced-4890-99f5-ae0d1edb484a" alt="Gatos" class="tam"></a>
+        <figcaption class="cadaElem2">Gatos</figcaption>
+    </figure>
+    <figure>
+        <a href="perrosygatos" class="cadaElem2"><img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Fperro%20y%20gatos.jpg?alt=media&token=62b5478e-14e4-41fe-b9b6-4a43a0c88d30" alt="Perros" class="tam"></a>
+        <figcaption class="cadaElem2">Perros y gatos</figcaption>
+    </figure>
+
+</div>
+</ion-content>

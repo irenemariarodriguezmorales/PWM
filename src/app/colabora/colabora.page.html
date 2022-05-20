@@ -1,0 +1,20 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <div class="cabecera">
+		<ul class="nave" *ngIf="getCurrentUser() == null">
+			<li class="elem"><a class="cadaElem" href="LogIn">Iniciar sesión</a></li>
+			<li class="elem"><a class="cadaElem" href="Register">Registrarse</a></li>
+		</ul>
+		<ul class="nave" *ngIf="getCurrentUser() != null">
+			<li class="elem"><a class="cadaElem" href="MainPage" (click)="logOut()">Cerrar Sesión</a></li>
+		</ul>
+		<div class="sobre"> <a class="cadaElem" href="sobreNosotros">Sobre nosotros</a> </div>
+		<div class="colab"> <a class="cadaElem" href="colabora">Colabora</a> </div>
+		<div class="ong"> <a class="cadaElem" href="ongColaboradoras">ONG colaboradoras</a> </div>
+		<a href="MainPage"><img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Flogo.png?alt=media&token=8625a1b5-8f7d-4c7f-893d-cab248d5f88b" alt="Logo" class="logo"></a>
+	</div>
+  <img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Fcolabora.jpg?alt=media&token=3a4010d4-e220-42b6-ae7e-c23298ec4868" alt="Fondo" class="fondo2">
+  <div class="adopta"><a href="sobreLaAdopcion">Adopta</a></div>
+</ion-content>

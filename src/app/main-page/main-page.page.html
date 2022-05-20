@@ -1,0 +1,34 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+	<div class="cabecera">
+		<ul class="nave" *ngIf="getCurrentUser() == null">
+			<li class="elem"><a class="cadaElem" href="LogIn">Iniciar sesión</a></li>
+			<li class="elem"><a class="cadaElem" href="Register">Registrarse</a></li>
+		</ul>
+		<ul class="nave" *ngIf="getCurrentUser() != null">
+			<li class="elem"><a class="cadaElem" (click)="logOut()" href="MainPage">Cerrar Sesión</a></li>
+		</ul>
+		<div class="sobre"> <a class="cadaElem" href="sobreNosotros">Sobre nosotros</a> </div>
+		<div class="colab"> <a class="cadaElem" href="colabora">Colabora</a> </div>
+		<div class="ong"> <a class="cadaElem" href="ongColaboradoras">ONG colaboradoras</a> </div>
+		<a href="MainPage"><img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Flogo.png?alt=media&token=8625a1b5-8f7d-4c7f-893d-cab248d5f88b" alt="Logo" class="logo"></a>
+	</div>
+	<div class="addanimal" *ngIf="getCurrentUser() != null && (getCurrentUser().type == 'admin' || getCurrentUser().type == 'ong')"><a href="Register_animal">Añadir animal</a></div>
+			<div class="notifications" *ngIf="getCurrentUser() != null && (getCurrentUser().type == 'admin' || getCurrentUser().type == 'ong')"><a href="Admin_delete">Borrar animal</a></div>
+			<div class="notifications" *ngIf="getCurrentUser() != null && (getCurrentUser().type == 'admin' || getCurrentUser().type == 'ong')"><a href="Admin_update">Actualizar animal</a></div>
+			<div class="notifications" *ngIf="getCurrentUser() != null && (getCurrentUser().type == 'admin' || getCurrentUser().type == 'ong')"><a href="Admin_notifications">Notificaciones</a></div>
+
+  <a href="nuestrosAnimales"><img class="ouranimalslink" src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Fmain_animals.png?alt=media&token=43b4b3e9-1de6-42d1-b569-43b9b7e8c75b"></a>
+		  	<section class="section_left">
+				<a href="#" class="section_text">Noticias relacionadas</a>
+				<br>
+				<a href="News/1" style="color:white; text-decoration: none;">Premio</a>
+				<br>
+				<a href="News/2" style="color:white; text-decoration: none;">Gala solidaria</a>
+			</section>
+			<section class="section_right" style="text-align: left;">
+				<a href="Forum" class="section_text">Foro general</a>
+			</section>
+</ion-content>

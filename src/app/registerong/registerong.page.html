@@ -1,0 +1,33 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <div>
+    <a href="MainPage"><img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Flogo.png?alt=media&token=8625a1b5-8f7d-4c7f-893d-cab248d5f88b" alt="Logo" class="logging_logo"></a>
+</div>
+
+<main class="logging_style">
+  <img class="logging_image" src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Fregistrarong.png?alt=media&token=27e2b516-d5b2-42bd-9682-7c7d226a0e59">
+  <br><br>
+  <img class="logging_subimage" src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Fprofile_icon.png?alt=media&token=4a7cb207-5748-4756-83b6-a32015f5c8a3">
+  <div>
+    <input type="text" id="ongname" required name="nombre" placeholder="Nombre del refugio" size="30">
+    <br><br>
+    <input type="text" id="ongmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required name="mail" placeholder="Email" size="30">
+    <br><br>
+    <input type="text" id="onglocation" required name="location" placeholder="Direccion" size="30">
+    <br><br>
+    <input type="text" id="ongzipcode" pattern="[0-9]{5}" required name="postal" placeholder="Codigo postal" size="30">
+    <br><br>
+    <input type="text" id="ongnumber" pattern="[0-9]{9}" required name="number" placeholder="Numero de contacto" size="30">
+    <br><br>
+    <input type="password" id="ongpassword" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" required name="password" placeholder="Password" size="30">
+    <br><br>
+    <input type="button" (click)="registerONG()" value="Registrar">
+  </div>
+</main>
+
+<footer class="logging_style">
+  ¿Ya tienes una cuenta? <a href="LogIn">Iniciar sesión</a>
+</footer>
+</ion-content>

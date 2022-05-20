@@ -1,0 +1,25 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+    <div class="cabecera">
+		<ul class="nave" *ngIf="getCurrentUser() == null">
+			<li class="elem"><a class="cadaElem" href="LogIn">Iniciar sesión</a></li>
+			<li class="elem"><a class="cadaElem" href="Register">Registrarse</a></li>
+		</ul>
+		<ul class="nave" *ngIf="getCurrentUser() != null">
+			<li class="elem"><a class="cadaElem" href="MainPage" (click)="logOut()">Cerrar Sesión</a></li>
+		</ul>
+		<div class="sobre"> <a class="cadaElem" href="sobreNosotros">Sobre nosotros</a> </div>
+		<div class="colab"> <a class="cadaElem" href="colabora">Colabora</a> </div>
+		<div class="ong"> <a class="cadaElem" href="ongColaboradoras">ONG colaboradoras</a> </div>
+		<a href="MainPage"><img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Flogo.png?alt=media&token=8625a1b5-8f7d-4c7f-893d-cab248d5f88b" alt="Logo" class="logo"></a>
+	</div>
+    <div>
+        <h1 class="titulo">Sobre nosotros</h1>
+        <p class="parrafo">En Dogs & Cats ONG nos preocupamos por el bienestar de los animales y que se realice una adopción segura.</p>
+        <p class="parrafo">Nos encontramos en la C/Carretera a la Montaña Nº 12, Las Palmas. Nuestro teléfono es el 111 111 111.</p>
+        <p class="parrafo">Si desea solicitar una visita puede contactarnos también por correo: dogsandcats@gmail.com</p>
+        <img src="https://firebasestorage.googleapis.com/v0/b/dogsandcatsong-ded69.appspot.com/o/PageUIImages%2Ffondo.jpg?alt=media&token=d4df957c-43b4-4820-9674-04214320c846" alt="Fondo" class="fondo">
+    </div>
+</ion-content>
